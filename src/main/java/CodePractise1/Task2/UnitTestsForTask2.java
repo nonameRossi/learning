@@ -14,6 +14,7 @@ public class UnitTestsForTask2 {
         pol.setYarray(new int[]{3, 0, 0, -2, -2, 0, 0, 3});
         Assert.assertTrue(IsPointInPoligom.PointChecker(0,0));
     }
+
     @Test
     public void Test2(){
         Poligom pol = Poligom.getInstance();
